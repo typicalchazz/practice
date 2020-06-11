@@ -6,8 +6,8 @@ let App = () => {
     return(
     <div>
         <h1>{total}</h1>
-        <Counter updater={setTotal}/>
-        <Counter updater={setTotal}/> 
+        <Counter updateFunction={setTotal}/>
+        <Counter updateFunction={setTotal}/> 
     </div>
 
       );

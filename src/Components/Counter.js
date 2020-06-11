@@ -8,7 +8,7 @@ const Counter = (props) => {
         <React.Fragment>
           <h1>{state}</h1>
           <button onClick = {() =>{
-              props.updater(i => (i+1)) 
+              props.updateFunction(i => (i+1)) 
               setState(state + 1)
               }}>Button</button>
         </React.Fragment>
